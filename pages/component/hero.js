@@ -3,7 +3,7 @@ export default function hero() {
   return (
     <>
       <Fade bottom delay={500}>
-        <section>
+        <section className="md:h-screen">
           <div className="flex place-items-center">
             <div className="  flex-1">
               <div className="ml-24 mt-20">
@@ -32,7 +32,7 @@ export default function hero() {
               </div>
             </div>
           </div>
-          <div className="flex justify-center">
+          <div className="flex justify-center mt-6">
             <img src="../icon/prologis.svg" className="w-36 mt-6 mr-32" />
             <img src="../icon/american-tower.svg" className="w-36 mt-6 mr-32" />
             <img src="../icon/equinix-logo.svg" className="w-36 mt-6 mr-32" />
