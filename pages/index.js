@@ -1,6 +1,7 @@
 import Navbar from "./component/navbar";
 import Hero from "./component/hero";
 import Populer from "./component/popular";
+import Ourvalue from "./component/ourvalue";
 import Head from "next/head";
 
 export default function index() {
@@ -18,6 +19,7 @@ export default function index() {
       <Navbar />
       <Hero />
       <Populer />
+      <Ourvalue />
     </>
   );
 }

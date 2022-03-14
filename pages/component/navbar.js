@@ -10,9 +10,9 @@ export default function navbar() {
           </h1>
         </div>
         <div className="flex-initial w-auto ">
-          <ul className="flex">
+          <ul className="flex  py-2">
             <Link href="/">
-              <li className="mr-4 font-poppins font-semibold text-slate-700 hover:text-slate-500 cursor-pointer hover:underline">
+              <li className=" mr-4 font-poppins font-semibold text-slate-700 hover:text-slate-500 cursor-pointer hover:underline">
                 Home
               </li>
             </Link>
